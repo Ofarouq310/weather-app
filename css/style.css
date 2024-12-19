@@ -6,4 +6,49 @@
 
 body {
     background-color: aliceblue;
+    color: white;
+}
+
+header {
+    background-color: #1e202b;
+    padding: 50px 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list li {
+    list-style: none;
+    padding-inline: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 154, 216);
+    border: 2px rgb(0, 154, 216) solid;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.logo-container{
+    position: relative;
+}
+
+.fa-cloud-sun-rain {
+    font-size: 26px;
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+    color: rgb(0, 154, 216);
 }
