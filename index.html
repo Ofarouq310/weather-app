@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,11 +30,56 @@
         </nav>
     </header>
     <main>
-        
-       
+        <div class="container-one">
+            <form>
+                <input type="text" placeholder="Find your location..." id="searchBar">
+                <input type="button" value="Find" id="submitBtn">
+            </form>
+
+            <h1 id="city-name">Cairo</h1>
+        </div>
+        <div class="container-two">
+            <div class="weather-cards">
+                <div class="card-one width-color" >
+                    <div class="card-header">
+                        <span>Saturday</span>
+                        <span>21th December</span>
+                    </div>
+                    <div class="card-content">
+                        <img src="//cdn.weatherapi.com/weather/64x64/night/113.png"></img>
+                        <span class="degree">21<sup>o</sup>C ~ 20<sup>o</sup>C</span>
+                        <span class="weather-descr">Sunny</span>
+                    </div>
+                </div>
+                <div class="card-two width-color">
+                    <div class="card-header">
+                        <span>Sunday</span>
+                    </div>
+                    <div class="card-content darker-bk">
+                        <img src="//cdn.weatherapi.com/weather/64x64/night/113.png"></img>
+                        <span class="degree">21<sup>o</sup>C ~ 20<sup>o</sup>C</span>
+                        <span class="weather-descr">Sunny</span>
+                    </div>
+                </div>
+                <div class="card-three width-color">
+                    <div class="card-header">
+                        <span>Monday</span>
+                    </div>
+                    <div class="card-content">
+                        <img src="//cdn.weatherapi.com/weather/64x64/night/113.png"></img>
+                        <span class="degree">21<sup>o</sup>C ~ 20<sup>o</sup>C</span>
+                        <span class="weather-descr">Sunny</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-    
+        <form>
+            <input type="text" placeholder="Find your location..." id="footerBar">
+            <input type="button" value="Subscribe" id="subscribe">
+        </form>
+        <p class="footer-text">Copyright 2024 Omar Farouq. All rights reserved</p>
     </footer>
 <script src="js/index.js"></script>
 </body>

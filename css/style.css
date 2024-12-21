@@ -7,6 +7,7 @@
 body {
     background-color: aliceblue;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -26,29 +27,165 @@ nav {
 
 .nav-list li {
     list-style: none;
-    padding-inline: 30px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    padding: 5px 30px;
 }
 
 a:hover {
     color: rgb(0, 154, 216);
     border: 2px rgb(0, 154, 216) solid;
-    padding: 10px 30px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 .logo-container{
     position: relative;
 }
 
+#page-logo {
+    font-size: 20px;
+}
+
 .fa-cloud-sun-rain {
-    font-size: 26px;
+    font-size: 30px ;
     position: relative;
     left: 25px;
-    bottom: 15px;
+    bottom: 18px;
     color: rgb(0, 154, 216);
+}
+
+.container-one {
+    background-color: #50556d;
+    padding-block: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    background: linear-gradient(rgb(0 0 0 / 46%), rgb(0 0 0 / 41%)), url(../pexels-rgsk97-1049831.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#city-name {
+    font-size: 3.5rem;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#searchBar {
+    width: 75%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+#submitBtn {
+    position: relative;
+    right: 185px;
+    bottom: 59px;
+    padding: 15px 42px;
+    background: #009ad8;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    min-height: 45px;
+    align-self: flex-end;
+}
+
+.container-two {
+    background-color: #1e202b;
+}
+
+.weather-cards {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}
+
+.width-color {
+    width: 33.333%;
+    background-color: #303344;
+}
+
+.card-header {
+    background-color: rgb(36, 38, 51);
+    text-align: center;
+    padding: 5px 3px;
+}
+
+.card-two .card-header {
+    background-color: #14151d;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 50px;
+    min-height: 50vh;
+}
+
+.darker-bk {
+    background-color: #1b1c25;
+}
+
+.degree {
+    font-size: 50px;
+}
+
+footer {
+    background-color: #303344;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerBar {
+    width: 70%;
+    padding: 15px 40px 15px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#subscribe {
+    position: relative;
+    right: 200px;
+    bottom: 49px;
+    padding: 10px 27px;
+    background: #009ad8;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    max-height: 45px;
+    align-self: flex-end;
+}
+
+.footer-text {
+    align-self: center;
 }
